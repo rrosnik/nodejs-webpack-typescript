@@ -1,0 +1,28 @@
+{
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ],
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "module": "Node16",
+        "target": "ES2020",
+        "outDir": "./dist",
+        "sourceMap": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "declaration": true,
+        "declarationDir": "./dist/types",
+        "declarationMap": true,
+        "esModuleInterop": true,
+        "lib": [
+            "ES2022"
+        ],
+    },
+}
